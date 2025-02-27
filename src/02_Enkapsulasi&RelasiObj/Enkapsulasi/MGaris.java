@@ -32,12 +32,12 @@ public class MGaris {
         // getTitikAwal()
         System.out.println("\nTest Case 3 : getTitikAwal()");
         Titik titikAwalG1 = G1.getTitikAwal();
-        System.out.println("Titik awal\t: " + "(" + titikAwalG1.absis + "," + titikAwalG1.ordinat + ")");
+        System.out.println("Titik awal\t: " + "(" + titikAwalG1.getAbsis() + "," + titikAwalG1.getOrdinat() + ")");
 
         // getTitikAkhir()
         System.out.println("\nTest Case 4 : getTitikAkhir()");
         Titik titikAkhirG1 = G1.getTitikAkhir();
-        System.out.println("Titik akhir\t: " + "(" + titikAkhirG1.absis + "," + titikAkhirG1.ordinat + ")");
+        System.out.println("Titik akhir\t: " + "(" + titikAkhirG1.getAbsis() + "," + titikAkhirG1.getOrdinat() + ")");
 
         // getCountGaris()
         System.out.println("\nTest Case 5 : getCountGaris()");
@@ -54,7 +54,7 @@ public class MGaris {
         // getTitiktengah()
         System.out.println("\nTest Case 8 : getTitikTengah()");
         Titik titikTengahG1 = G1.getTitikTengah();
-        System.out.println("Titik tengah\t: " + "(" + titikTengahG1.absis + "," + titikTengahG1.ordinat + ")");
+        System.out.println("Titik tengah\t: " + "(" + titikTengahG1.getAbsis() + "," + titikTengahG1.getOrdinat() + ")");
         
         //PREDIKAT
         System.out.println("\nPREDIKAT");

@@ -110,4 +110,5 @@ public class Titik {
     public Titik getRefleksiY() {
         return new Titik(-absis, ordinat);
     }
+    
 } // end class of Titik
