@@ -3,6 +3,9 @@
 /* Deskripsi : contoh asersi pada java */
 /* NIM/Nama  : 240601230012/SYAFIQ ABIYYU TAQI*/
 /* Tanggal   : 11-03-2025*/
+
+import Abstract.Lingkaran2;
+
 /***********************************/
 
 class Lingkaran2{

@@ -7,6 +7,7 @@
 
 public class Titik {
     /* ATRIBUT */
+    int IDTitik;
     double absis;
     double ordinat;
     static int countTitik = 0;
@@ -18,6 +19,7 @@ public class Titik {
         absis = 0;
         ordinat = 0;
         countTitik++;
+        IDTitik = countTitik;
     }
 
     // Konstruktor untuk membuat titik (x,y)
@@ -25,6 +27,7 @@ public class Titik {
         absis = x;
         ordinat = y;
         countTitik++;
+        IDTitik = countTitik;
     }
 
     // SELEKTOR
@@ -63,7 +66,7 @@ public class Titik {
 
     // Mencetak koordinat titik
     void printTitik() {
-        System.out.println("(" + absis + "," + ordinat + ")");
+        System.out.println("(" + absis + "," + ordinat + ") :" + IDTitik);
     }
 
     // Mengembalikan kuadran dari titik
