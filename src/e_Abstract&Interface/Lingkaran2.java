@@ -5,7 +5,7 @@
 /* Tanggal		: 13-03-2025 */
 /***********************************/
 
-public class Lingkaran2 extends BangunDatar2 {
+public class Lingkaran2 extends BangunDatar2 implements Iresize{
     /* ATRIBUT */
     private double jari;
 
@@ -47,4 +47,19 @@ public class Lingkaran2 extends BangunDatar2 {
         this.jari = jari;
     }
 
+    // METHOD LAIN
+    @Override
+    public void zoomIn() {
+        jari *= 1.1;
+    }
+
+    @Override
+    public void zoomOut() {
+        jari *= 0.9;
+    }
+
+    @Override
+    public void zoom(int persen) {
+        jari *= persen / 100.0;
+    }
 }

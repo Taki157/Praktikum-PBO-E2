@@ -46,3 +46,4 @@ public class labKomp extends ruangLab {
         System.out.println("Biaya Kebersihan\t : " + biayaKebersihan());
     }
 }
+ 

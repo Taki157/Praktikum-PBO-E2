@@ -54,3 +54,4 @@ public class labNonKomp extends ruangLab{
         }
     }
 }
+ 
