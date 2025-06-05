@@ -12,6 +12,7 @@ public class DiskonLambda {
     public static void main(String[] args) {
         // tanpa pambda
         IDiskon diskonMerdeka = new IDiskon() {
+            @Override
             public double hitungDiskon(int harga) {
                 return harga - (harga *0.3);
             }

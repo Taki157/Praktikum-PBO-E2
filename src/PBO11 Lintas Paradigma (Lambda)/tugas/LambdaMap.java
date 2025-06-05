@@ -4,13 +4,13 @@
 /* Pembuat		: Syafiq Abiyyu Taqi / 24060123120012 */
 /* Tanggal		: 05-06-2025 */
 /***********************************/
-import java.util.Map;
+import java.util.AbstractMap;
 import java.util.TreeMap;
 
 public class LambdaMap {
     public static void main(String[] args) {
         /* KAMUS */
-        Map<String, String> mahasiswaMap;
+        AbstractMap<String, String> mahasiswaMap;
 
         /* ALGORITMA */
         mahasiswaMap = new TreeMap<>();
