@@ -1,19 +1,19 @@
 /************************************/
-/* Nama file	: Burung.java */
-/* Deskripsi	: Class Burung */
+/* Nama file	: Kucing.java */
+/* Deskripsi	: Class Kusing */
 /* Pembuat		: Syafiq Abiyyu Taqi / 24060123120012 */
 /* Tanggal		: 28-05-2025 */
 /***********************************/
-public class Burung extends Anabul{
+public class Kucing2 extends Anabul2{
     /* ATRIBUT */
     /* METHOD */
     // KONSTRUKTOR
-    public Burung() {
+    public Kucing2() {
         super();
     }
 
-    public Burung(String nama) {
-        super(nama);
+    public Kucing2(String name) {
+        super(name);
     }
 
     // GETTER
@@ -21,11 +21,11 @@ public class Burung extends Anabul{
     // METHOD LAIN
     @Override
     public void Gerak() {
-        System.out.println("Terbang");
+        System.out.println("Berjalan");
     }
 
     @Override
     public void Bersuara() {
-        System.out.println("oeoeoeoeoeoe...");
+        System.out.println("Meowww...");
     }
 }

@@ -1,18 +1,18 @@
 /************************************/
-/* Nama file	: Anjing.java */
-/* Deskripsi	: Class Anjing */
+/* Nama file	: Burung.java */
+/* Deskripsi	: Class Burung */
 /* Pembuat		: Syafiq Abiyyu Taqi / 24060123120012 */
 /* Tanggal		: 28-05-2025 */
 /***********************************/
-public class Anjing extends Anabul {
+public class Burung2 extends Anabul2{
     /* ATRIBUT */
     /* METHOD */
     // KONSTRUKTOR
-    public Anjing() {
+    public Burung2() {
         super();
     }
 
-    public Anjing(String nama) {
+    public Burung2(String nama) {
         super(nama);
     }
 
@@ -21,11 +21,11 @@ public class Anjing extends Anabul {
     // METHOD LAIN
     @Override
     public void Gerak() {
-        System.out.println("Berjalan");
+        System.out.println("Terbang");
     }
 
     @Override
     public void Bersuara() {
-        System.out.println("guk.. guk.. guk..");
+        System.out.println("oeoeoeoeoeoe...");
     }
 }

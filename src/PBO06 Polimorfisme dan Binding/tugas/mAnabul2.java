@@ -5,17 +5,17 @@
 /* Tanggal		: 28-05-2025 */
 /***********************************/
 
-public class mAnabul {
+public class mAnabul2 {
     public static void main(String[] args) {
         /* KAMUS */
-        Anabul meng;
-        Anabul gukguk;
-        Anabul bwuung;
+        Anabul2 meng;
+        Anabul2 gukguk;
+        Anabul2 bwuung;
 
         /* ALGORITMA */
-        meng = new Kucing("Kiko");
-        gukguk = new Anjing("Hehe");
-        bwuung = new Burung("Kakatua");
+        meng = new Kucing2("Kiko");
+        gukguk = new Anjing2("Hehe");
+        bwuung = new Burung2("Kakatua");
 
         meng.Bersuara();
         meng.Gerak();
