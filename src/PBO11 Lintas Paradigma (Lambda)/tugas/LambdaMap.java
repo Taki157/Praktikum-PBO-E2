@@ -4,15 +4,16 @@
 /* Pembuat		: Syafiq Abiyyu Taqi / 24060123120012 */
 /* Tanggal		: 05-06-2025 */
 /***********************************/
-import java.util.HashMap;
+import java.util.Map;
+import java.util.TreeMap;
 
 public class LambdaMap {
     public static void main(String[] args) {
         /* KAMUS */
-        HashMap<String, String> mahasiswaMap;
+        Map<String, String> mahasiswaMap;
 
         /* ALGORITMA */
-        mahasiswaMap = new HashMap<>();
+        mahasiswaMap = new TreeMap<>();
 
         mahasiswaMap.put("01", "Sidan jomok");
         mahasiswaMap.put("02", "Filbet jomok");
